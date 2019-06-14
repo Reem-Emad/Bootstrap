@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.css" /> -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid no-gutters">
+        <div class="row header no-gutters py-2">
+            <div class="col-md-8 col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link font-specification" href="#">HOME<span
+                                        class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-specification" href="#">ABOUT US</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-specification" href="#">EVENTS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link font-specification dropdown-toggle" id="navbarDropdownMenuLink"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    href="#">CAUSES</a>
+                                <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">cause one</a>
+                                    <a class="dropdown-item" href="#">cause two</a>
+                                    <a class="dropdown-item" href="#">cause three</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link font-specification dropdown-toggle" id="navbarDropdownMenuLink"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                                    href="#">BLOG</a>
+                                <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">blog one</a>
+                                    <a class="dropdown-item" href="#">blog two</a>
+                                    <a class="dropdown-item" href="#">blog three</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link font-specification" href="#">CONTACT </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </div>
+            <div class="col-md-2 text-right col-sm-6 maginfier-icon">
+                <div class="search-icon"> <i class="fas fa-search"></i></div>
+            </div>
+            <div class="col-md-2 col-sm-6 py-3">
+                <button type="button" class="btn btn-primary btn-lg">Donate Now</button>
+            </div>
+
+        </div>
+    </div>
+    <!--carousel block-->
+    <div class="container-fluid no-gutters">
+        <div class="row no-gutters">
+            <div class="col-sm-12">
+                <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-interval="5000">
+                            <div class="overlay"></div>
+                            <img src="images/image-1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="font-specification">Change the life, change the world</h3>
+                                <h1 class="font-specification   Big-font-size">Sponser an orphan and </h1>
+                                <h1 class="font-specification   Big-font-size">the poor people</h1>
+                                <h3 class="font-specification">with warmth and true support</h3>
+                                <br>
+                                <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-interval="3000">
+                            <div class="overlay"></div>
+                            <img src="images/image-5.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h3 class="font-specification">Change the life, change the world</h3>
+                                <h1 class="font-specification   Big-font-size">Sponser an orphan and </h1>
+                                <h1 class="font-specification   Big-font-size">the poor people</h1>
+                                <h3 class="font-specification">with warmth and true support</h3>
+                                <br>
+                                <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--block two welcoming-->
+    <div class="container-fluid no-gutters my-5">
+        <div class="row no-gutters">
+            <div class="col-lg-3">
+                <div class="card my-3 card__down-shadow" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <i class="far fa-heart icon-specification"></i>
+                    <a href="#" class="badge card__down-shadow-link  mt-3">Get inspired</a>
+                    <div class="lines mt-3">
+                        <div class="lines__first"></div>
+                        <div class="lines__second"></div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">Puis nostrud exercitation ullamco laboris nisi utm aliquip sed duis aute.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-outline-dark card__down-shadow-button"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card my-3 card__down-shadow" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <i class="fas fa-hand-holding-usd icon-specification"></i>
+                    <a href="#" class="badge card__down-shadow-link  mt-3">Give donation</a>
+                    <div class="lines mt-3">
+                        <div class="lines__first"></div>
+                        <div class="lines__second"></div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">Puis nostrud exercitation ullamco laboris nisi utm aliquip sed duis aute.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-outline-dark card__down-shadow-button"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card my-3 card__down-shadow" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <i class="far fa-user icon-specification"></i>
+                    <a href="#" class="badge card__down-shadow-link  mt-3">Bacome a volanteer</a>
+                    <div class="lines mt-3">
+                        <div class="lines__first"></div>
+                        <div class="lines__second"></div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">Puis nostrud exercitation ullamco laboris nisi utm aliquip sed duis aute.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-outline-dark card__down-shadow-button"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card my-3 card__down-shadow" style="width: 18rem;">
+                    <!-- <img src="..." class="card-img-top" alt="..."> -->
+                    <i class="fas fa-dollar-sign icon-specification"></i>
+                    <a href="#" class="badge card__down-shadow-link  mt-3">Help the children</a>
+                    <div class="lines mt-3">
+                        <div class="lines__first"></div>
+                        <div class="lines__second"></div>
+                    </div>
+
+                    <div class="card-body">
+                        <p class="card-text">Puis nostrud exercitation ullamco laboris nisi utm aliquip sed duis aute.
+                        </p>
+                    </div>
+                    <button type="button" class="btn btn-outline-dark card__down-shadow-button"><i
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--block three about us-->
+    <div class="container-fluid no-gutters card-about-us-block my-5">
+        <div class="row no-gutters card-about-us-block-contents">
+            <div class="col-md-6">
+                <div class="card ">
+                    <img src="images/about.jpg" class="card-img-top big-picture" alt="...">
+
+                </div>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="card card-about-us-block-contents__text-block">
+
+                    <div class="card-body h-auto">
+                        <div class="container-fluid no-gutters card-text">
+
+                            <div class="row no-gutters text-block__title">
+                                <div class="container no-gutters">
+                                    <div class="row no-gutters">
+                                        <h4>A Charity with Mission</h4>
+                                    </div>
+                                    <!-- <br> -->
+                                    <div class="row no-gutters">
+                                        <h2>We are <span>ChariteMAX<span></h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <br> -->
+                            <div class="row no-gutters text-block__text h-auto">
+                                <div class="container no-gutters">
+                                    <div class="row no-gutters">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit, sed do eiusmod
+                                        tempor incididunt ut laboret dolore magna aliqua ut enim ad minim
+                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                        velit esse cillum dolore eu fugiat nulla pariatur excepteur sint
+                                        occaecat cupidatat non proident.</div>
+                                    <div class="row no-gutters">Sunt in culpa qui officia deserunt mollit anim id est
+                                        laborum. Sed ut
+                                        perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        doloremque laudantium totam rem aperiam.</div>
+
+                                    <div class="row no-gutters sign">
+                                        <div class="container no-gutters">
+                                            <div class="row no-gutters"> Daniel Ricardo</div>
+                                            <div class="row no-gutters"> <img src="images/sign.png"> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--block four causes-->
+    <div class="container-fluid no-gutters my-5">
+        <div class="row no-gutters">
+            <div class="col-lg-12">
+                <div class="card section-title">
+                    <img src="images/sec-title.png" class="card-img-top" style="width:10rem;" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <h1>Our Recent <span>Causes</span> </h1>
+                            <p>Children and poor people are at high risk of severe malnutrition & no education</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col-lg-12 section-title">
+
+                <div class="section-title-image">
+                    <img src="images/sec-title.png">
+                </div>
+                <h1>Our Recent <span>Causes</span> </h1>
+                <p>Children and poor people are at high risk of severe malnutrition & no education</p>
+
+            </div> -->
+            <div class="col-lg-4 my-5">
+                <div class="card card__progress-bar" style="width: 20rem;">
+
+                    <img src="images/cause-1.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+
+                    <div class="card-body">
+                        <h5 class="card-title font-specification my-3">Feed Hungry Children</h5>
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <p class="card-text my-3">Auis nostrud exercitation ullamc laboris nisitm aliquip ex bea sed
+                            consequat duis autes ure dolor. dolore magna aliqua nim ad minim.</p>
+                        <div class="progress-level my-3">
+                            <div class="percent" style="margin-left:142px">
+                                <div class="value">65%</div>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="bar">
+                                <div class="outer-bar">
+                                </div>
+                                <div class="inner-bar" style="width:170px">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-dark  card__progress-bar-btn my-3">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-5">
+                <div class="card card__progress-bar" style="width: 20rem;">
+
+                    <img src="images/cause-2.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+
+                    <div class="card-body">
+                        <h5 class="card-title font-specification my-3">Medical Treatment</h5>
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <p class="card-text my-3">Auis nostrud exercitation ullamc laboris nisitm aliquip ex bea sed
+                            consequat duis autes ure dolor. dolore magna aliqua nim ad minim.</p>
+                        <div class="progress-level my-3">
+                            <div class="percent" style="margin-left:123px">
+                                <div class="value">42%</div>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="bar">
+                                <div class="outer-bar">
+                                </div>
+                                <div class="inner-bar" style="width:150px">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-dark card__progress-bar-btn my-3">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-5">
+                <div class="card card__progress-bar" style="width: 20rem;">
+
+                    <img src="images/cause-3.jpg" class="card-img-top" alt="...">
+                    <div class="overlay"></div>
+
+                    <div class="card-body">
+                        <h5 class="card-title font-specification my-3">Education For People</h5>
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <p class="card-text my-3">Auis nostrud exercitation ullamc laboris nisitm aliquip ex bea sed
+                            consequat duis autes ure dolor. dolore magna aliqua nim ad minim.</p>
+                        <div class="progress-level my-3">
+                            <div class="percent" style="margin-left:160px">
+                                <div class="value">85%</div>
+                                <i class="fas fa-caret-down"></i>
+                            </div>
+                            <div class="bar">
+                                <div class="outer-bar">
+                                </div>
+                                <div class="inner-bar" style="width:190px">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-dark  card__progress-bar-btn my-3">Donate Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--block five fact block-->
+    <div class="container-fluid no-gutters">
+        <div class="row no-gutters background-image">
+            <div class="col-lg-3">
+                <div class="card card-elements" style="width: 18rem;">
+                    <i class="fas fa-file-invoice-dollar icon"></i>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <p class="number">98520</p>
+                            <p class="text">Received donation</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-elements" style="width: 18rem;">
+                    <i class="fas fa-heart icon"></i>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <p class="number">98520</p>
+                            <p class="text">Received donation</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-elements" style="width: 18rem;">
+                    <i class="fas fa-tshirt icon"></i>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <p class="number">98520</p>
+                            <p class="text">Received donation</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="card card-elements" style="width: 18rem;">
+                    <i class="fas fa-hands icon"></i>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <p class="number">98520</p>
+                            <p class="text">Received donation</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--mission and goal block-->
+    <div class="container-fluid no-gutters cards__rotateX-background">
+        <div class="row no-gutters ">
+            <div class="col-lg-12 my-5">
+                <div class="card section-title">
+                    <img src="images/sec-title.png" class="card-img-top" style="width:10rem;" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <h1>Mission & <span>goals</span> </h1>
+                            <p>Many children and poor people are at high risk of severe malnutrition</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row justify-content-center"> -->
+            <div class="col-lg-4 my-4">
+                <div class="card card__rotateX py-3" style="width: 18rem;">
+                    <i class="fas fa-home card__rotateX-icon"></i>
+                    <div class="card-body">
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <h5 class="card-title">Homeless Children</h5>
+                    </div>
+                    <!-- overlay -->
+                    <div class="card card__rotateX-overlay py-3" style="width: 18rem;">
+
+                        <i class="fas fa-home  card__rotateX-overlay-icon py-3"></i>
+                        <div class="card-body">
+                            <P class="card__rotateX-overlay-text">Nostrud exercitation ullamco laboris nisi utm aliquip
+                                sed duis aute
+                                lorem ipsum.</P>
+                            <div class="lines my-3">
+                                <div class="lines__first  card__rotateX-overlay-lines"></div>
+                                <div class="lines__second card__rotateX-overlay-lines"></div>
+                            </div>
+                            <h5 class="card-title card__rotateX-overlay-title">Homeless Children</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="card card__rotateX py-3" style="width: 18rem;">
+                    <i class="fas fa-hospital-alt card__rotateX-icon"></i>
+                    <div class="card-body">
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <h5 class="card-title">Medical Facilities</h5>
+                    </div>
+                    <!-- overlay -->
+                    <div class="card card__rotateX-overlay py-3" style="width: 18rem;">
+
+                        <i class="fas fa-hospital-alt  card__rotateX-overlay-icon py-3"></i>
+                        <div class="card-body">
+                            <P class="card__rotateX-overlay-text">Nostrud exercitation ullamco laboris nisi utm aliquip
+                                sed duis aute
+                                lorem ipsum.</P>
+                            <div class="lines my-3">
+                                <div class="lines__first  card__rotateX-overlay-lines"></div>
+                                <div class="lines__second card__rotateX-overlay-lines"></div>
+                            </div>
+                            <h5 class="card-title card__rotateX-overlay-title">Medical Facilities</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="card card__rotateX py-3" style="width: 18rem;">
+                    <i class="fas fa-graduation-cap card__rotateX-icon"></i>
+                    <div class="card-body">
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <h5 class="card-title">Education for all</h5>
+                    </div>
+                    <!-- overlay -->
+                    <div class="card card__rotateX-overlay py-3" style="width: 18rem;">
+
+                        <i class="fas fa-graduation-cap  card__rotateX-overlay-icon py-3"></i>
+                        <div class="card-body">
+                            <P class="card__rotateX-overlay-text">Nostrud exercitation ullamco laboris nisi utm aliquip
+                                sed duis aute
+                                lorem ipsum.</P>
+                            <div class="lines my-3">
+                                <div class="lines__first  card__rotateX-overlay-lines"></div>
+                                <div class="lines__second card__rotateX-overlay-lines"></div>
+                            </div>
+                            <h5 class="card-title card__rotateX-overlay-title">Education for all</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="card card__rotateX py-3" style="width: 18rem;">
+                    <i class="fas fa-globe-americas card__rotateX-icon"></i>
+                    <div class="card-body">
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <h5 class="card-title">Love your World</h5>
+                    </div>
+                    <!-- overlay -->
+                    <div class="card card__rotateX-overlay py-3" style="width: 18rem;">
+
+                        <i class="fas fa-globe-americas  card__rotateX-overlay-icon py-3"></i>
+                        <div class="card-body">
+                            <P class="card__rotateX-overlay-text">Nostrud exercitation ullamco laboris nisi utm
+                                aliquip
+                                sed duis aute
+                                lorem ipsum.</P>
+                            <div class="lines my-3">
+                                <div class="lines__first  card__rotateX-overlay-lines"></div>
+                                <div class="lines__second card__rotateX-overlay-lines"></div>
+                            </div>
+                            <h5 class="card-title card__rotateX-overlay-title">Love your World</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 my-4">
+                <div class="card card__rotateX py-3" style="width: 18rem;">
+                    <i class="fas fa-tint card__rotateX-icon"></i>
+                    <div class="card-body">
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <h5 class="card-title">Save Water Food</h5>
+                    </div>
+                    <!-- overlay -->
+                    <div class="card card__rotateX-overlay py-3" style="width: 18rem;">
+
+                        <i class="fas fa-tint card__rotateX-overlay-icon py-3"></i>
+                        <div class="card-body">
+                            <P class="card__rotateX-overlay-text">Nostrud exercitation ullamco laboris nisi utm
+                                aliquip
+                                sed duis aute
+                                lorem ipsum.</P>
+                            <div class="lines my-3">
+                                <div class="lines__first  card__rotateX-overlay-lines"></div>
+                                <div class="lines__second card__rotateX-overlay-lines"></div>
+                            </div>
+                            <h5 class="card-title card__rotateX-overlay-title">Save Water Food</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="card card__rotateX py-3" style="width: 18rem;">
+                    <i class="fas fa-desktop card__rotateX-icon"></i>
+                    <div class="card-body">
+                        <div class="lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <h5 class="card-title">Crowdfunding</h5>
+                    </div>
+                    <!-- overlay -->
+                    <div class="card card__rotateX-overlay py-3" style="width: 18rem;">
+
+                        <i class="fas fa-desktop  card__rotateX-overlay-icon py-3"></i>
+                        <div class="card-body">
+                            <P class="card__rotateX-overlay-text">Nostrud exercitation ullamco laboris nisi utm
+                                aliquip
+                                sed duis aute
+                                lorem ipsum.</P>
+                            <div class="lines my-3">
+                                <div class="lines__first  card__rotateX-overlay-lines"></div>
+                                <div class="lines__second card__rotateX-overlay-lines"></div>
+                            </div>
+                            <h5 class="card-title card__rotateX-overlay-title">Crowdfunding</h5>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-fluid no-gutters footer-contents ">
+        <!-- <footer>
+            -->
+        <div class="row no-gutters">
+            <div class="col-lg-4 my-5">
+                <div class="card card__aboutus-SocialMedia" style="width: 18rem;">
+                    <img src="images/footer-logo.png" class="card-img-top card__aboutus-SocialMedia-logo" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Significantly pushed under the frugal lemur one and meretricious lucrative
+                            inside before swept magnificently expand business.</p>
+                        <a href="#" class="btn btn-primary card__aboutus-SocialMedia-btns"><i
+                                class=" fab fa-twitter"></i></a>
+                        <a href="#" class="btn btn-primary card__aboutus-SocialMedia-btns"><i
+                                class=" fab fa-facebook-f"></i></a>
+                        <a href="#" class="btn btn-primary card__aboutus-SocialMedia-btns"><i
+                                class=" fab fa-google-plus-g"></i></a>
+                        <a href="#" class="btn btn-primary card__aboutus-SocialMedia-btns"><i
+                                class=" fab fa-linkedin-in"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="card card__with-links" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Our partners</h5>
+                        <div class="lines card__with-links-lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <div class="card__with-links-links">
+                            <a href="#" class="card-link">Donate ChariteMax</a>
+                            <a href="#" class="card-link">Save Our Earth</a>
+                            <a href="#" class="card-link">Water Shortages</a>
+                            <a href="#" class="card-link">Plant Trees Welfare</a>
+                            <a href="#" class="card-link">Recycle Better Way</a>
+                            <a href="#" class="card-link">Get A Food Plate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="card card__contacts" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Contact</h5>
+                        <div class="lines card__with-links-lines my-3">
+                            <div class="lines__first"></div>
+                            <div class="lines__second"></div>
+                        </div>
+                        <p class="card-text">
+                            <i class="fas fa-map-marker-alt"></i><span class="card__contacts-text"> 3571 Ringer House,
+                                Newyork, NY, 33220 USA</span>
+                            <br>
+                            <i class="fas fa-phone"></i><span class="card__contacts-text"> Support: +(034) 256
+                                7850</span>
+                            <br>
+                            <i class="fas fa-envelope-open"></i><span class="card__contacts-text"> Email:
+                                info@example.com</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

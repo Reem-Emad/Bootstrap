@@ -1,0 +1,63 @@
+.footer-contents
+{
+    background-color: #0A0A0A;
+    .card__aboutus-SocialMedia
+    {
+        border: transparent;
+        background-color: transparent;
+        color: white;
+        margin: auto;
+        &-logo
+        {
+            width:210px;
+            height:47px;
+            margin-left:12px;
+        }
+        
+        &-btns
+        {
+            border:transparent;
+            border-radius: 50px;
+            background-color: #222222;
+            &:hover{
+                background-color: $color-primary;
+            }
+          
+        }
+    }
+    .card__with-links
+    {
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        margin: auto;
+        &-lines
+        {
+            align-items: flex-start;
+        }
+        &-links
+        {
+            display: flex;
+            flex-direction: column;
+            .card-link{
+            margin-left: 0px;
+            color: white;
+                &:hover
+                {
+                    color:$color-primary;
+                }
+            }
+        }
+    }
+    .card__contacts
+    {
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        margin: auto;
+        &-text
+        {
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.font-specification
+  {
+      font-weight: bold;
+  }
+  .Big-font-size
+  {
+    font-size: 70px;
+  }
+  .icon-specification
+  {
+    color:rgb(63, 61, 61);
+    font-size:50px;
+  }
+  div{
+    &.container-fluid
+    {
+     &.no-gutters
+     {
+        padding-left: 0;
+        padding-right:0;
+     }
+    }
+  }

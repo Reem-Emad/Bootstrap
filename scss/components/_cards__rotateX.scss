@@ -1,0 +1,16 @@
+.cards__rotateX-background
+{
+    background-image: url("E:/ITI/html&css/project css&html&SASS/images/2.jpg");
+    // background-position: center left;
+    background-repeat: no-repeat;
+    // @include set-display-value-and-direction(flex,row);
+    // flex-wrap: wrap;
+}
+
+@media screen and (max-width:985px)
+{
+    .cards__rotateX-background
+    {
+    background-repeat: repeat;
+    }
+}

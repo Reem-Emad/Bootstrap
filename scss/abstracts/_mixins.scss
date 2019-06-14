@@ -1,0 +1,16 @@
+@mixin set-colors($background-color,$font-color,$border-color)
+{
+    background-color:$background-color;
+    color: $font-color;
+    border-color:$border-color; 
+}
+@mixin set-display-value-and-direction($display-value,$direction-value)
+{
+    display: $display-value;
+    flex-direction: $direction-value;
+}
+@mixin set-width-height($width-value,$height-value)
+{
+    width:$width-value;
+    height:$height-value;
+}

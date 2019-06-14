@@ -1,0 +1,23 @@
+.header
+{
+  
+    background-color: $nav-bar_background-color;
+
+    .search-icon
+{
+    margin: 20px;
+    font-size: 24px;
+}
+}
+@media screen and (max-width:500px)
+{
+    .col-sm-6
+    {
+        width: 50%;
+        
+    }
+    .maginfier-icon
+    {
+        text-align: left !important;
+    }
+}

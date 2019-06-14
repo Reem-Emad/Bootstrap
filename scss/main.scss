@@ -1,0 +1,48 @@
+@import "abstracts/variables";
+@import "abstracts/mixins";
+@import "../scss/base/utilities";
+@import "../scss/base/base";
+@import "../scss/custom";
+@import "../scss/components/nav-bar";
+@import "../scss/components/buttons";
+@import "../scss/components/dropdown";
+@import"../scss/components/carousel";
+@import"../scss/components/card__down-shadow";
+@import"../scss/components/lines";
+@import"../scss/components/card__about-us";
+@import"../scss/components/section-title";
+@import"../scss/components/card__progress-bar";
+@import"../scss/components/progress-bar";
+@import"../scss/components/card__fixed-attachment-image";
+@import"../scss/components/cards__rotateX";
+@import"../scss/components/card__rotateX";
+@import "../scss/components/footer";
+// div{
+//     &.container-fluid
+//     {
+//      &.no-gutters
+//      {
+//         padding-left: 0;
+//         padding-right:0;
+//      }
+//     }
+//   }
+//   .btn-primary
+//   {
+//       color:white;
+//       &:hover {
+//         background-color: Black;
+//         border-color: black; }
+//   }
+//   .btn-lg
+//   {
+//       border-radius: 15rem;
+//   }
+
+  
+// .search-icon
+// {
+//     margin: 20px;
+//     font-size: 24px;
+// }
+
